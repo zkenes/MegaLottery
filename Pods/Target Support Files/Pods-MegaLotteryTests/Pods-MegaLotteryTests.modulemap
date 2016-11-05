@@ -1,0 +1,6 @@
+framework module Pods_MegaLotteryTests {
+  umbrella header "Pods-MegaLotteryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

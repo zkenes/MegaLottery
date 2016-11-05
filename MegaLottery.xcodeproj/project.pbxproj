@@ -15,6 +15,18 @@
 		5E1FBF3F1DCE802600DA88CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FBF3D1DCE802600DA88CD /* LaunchScreen.storyboard */; };
 		5E1FBF4A1DCE802600DA88CD /* MegaLotteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF491DCE802600DA88CD /* MegaLotteryTests.swift */; };
 		5E1FBF551DCE802600DA88CD /* MegaLotteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF541DCE802600DA88CD /* MegaLotteryUITests.swift */; };
+		5E1FBF641DCE88C300DA88CD /* Tints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF631DCE88C300DA88CD /* Tints.swift */; };
+		5E1FBF661DCE88F200DA88CD /* Avenir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF651DCE88F200DA88CD /* Avenir.swift */; };
+		5E1FBF6A1DCE8C0100DA88CD /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1FBF681DCE8C0100DA88CD /* AccountKit.framework */; };
+		5E1FBF6B1DCE8C0100DA88CD /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FBF691DCE8C0100DA88CD /* AccountKitStrings.bundle */; };
+		5E1FBF6F1DCE95D900DA88CD /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF6E1DCE95D900DA88CD /* MainTabBarViewController.swift */; };
+		5E1FBF711DCE95F800DA88CD /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF701DCE95F800DA88CD /* EventsViewController.swift */; };
+		5E1FBF731DCE960400DA88CD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF721DCE960400DA88CD /* ProfileViewController.swift */; };
+		5E1FBF751DCE9AD700DA88CD /* EventDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF741DCE9AD700DA88CD /* EventDetailedViewController.swift */; };
+		5E1FBF771DCE9B0100DA88CD /* ParticipateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF761DCE9B0100DA88CD /* ParticipateViewController.swift */; };
+		6094201F7034AEE01573B336 /* Pods_MegaLotteryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E69C7F96D92B75661A2720 /* Pods_MegaLotteryUITests.framework */; };
+		7FD127F3451D1EF6B361E6E2 /* Pods_MegaLotteryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CD680A5E3D216D34CE731A /* Pods_MegaLotteryTests.framework */; };
+		B09CA1087D8AFA868B294AA3 /* Pods_MegaLottery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97BC521AD8C9B18F5570112 /* Pods_MegaLottery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5397CB8DD00D84F77E95533D /* Pods-MegaLotteryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLotteryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLotteryTests/Pods-MegaLotteryTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E1FBF2E1DCE802600DA88CD /* MegaLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FBF311DCE802600DA88CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E1FBF331DCE802600DA88CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,23 @@
 		5E1FBF501DCE802600DA88CD /* MegaLotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaLotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FBF541DCE802600DA88CD /* MegaLotteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLotteryUITests.swift; sourceTree = "<group>"; };
 		5E1FBF561DCE802600DA88CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1FBF631DCE88C300DA88CD /* Tints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tints.swift; sourceTree = "<group>"; };
+		5E1FBF651DCE88F200DA88CD /* Avenir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avenir.swift; sourceTree = "<group>"; };
+		5E1FBF681DCE8C0100DA88CD /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = MegaLottery/AccountKit.framework; sourceTree = "<group>"; };
+		5E1FBF691DCE8C0100DA88CD /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = MegaLottery/AccountKitStrings.bundle; sourceTree = "<group>"; };
+		5E1FBF6E1DCE95D900DA88CD /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		5E1FBF701DCE95F800DA88CD /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		5E1FBF721DCE960400DA88CD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5E1FBF741DCE9AD700DA88CD /* EventDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailedViewController.swift; sourceTree = "<group>"; };
+		5E1FBF761DCE9B0100DA88CD /* ParticipateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipateViewController.swift; sourceTree = "<group>"; };
+		6E5DB1861BAF6F4047AE8E9F /* Pods-MegaLotteryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLotteryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLotteryTests/Pods-MegaLotteryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7769F41456B338039B0DE909 /* Pods-MegaLotteryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLotteryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLotteryUITests/Pods-MegaLotteryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3CD680A5E3D216D34CE731A /* Pods_MegaLotteryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLotteryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB75362CD33E9444AD949293 /* Pods-MegaLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLottery/Pods-MegaLottery.release.xcconfig"; sourceTree = "<group>"; };
+		C0C6CFAEDFC9F5B219DA6E5B /* Pods-MegaLotteryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLotteryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLotteryUITests/Pods-MegaLotteryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA88187EBA2DE3D448CA75B /* Pods-MegaLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLottery/Pods-MegaLottery.debug.xcconfig"; sourceTree = "<group>"; };
+		E2E69C7F96D92B75661A2720 /* Pods_MegaLotteryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLotteryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97BC521AD8C9B18F5570112 /* Pods_MegaLottery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLottery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09CA1087D8AFA868B294AA3 /* Pods_MegaLottery.framework in Frameworks */,
+				5E1FBF6A1DCE8C0100DA88CD /* AccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD127F3451D1EF6B361E6E2 /* Pods_MegaLotteryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6094201F7034AEE01573B336 /* Pods_MegaLotteryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +117,8 @@
 				5E1FBF481DCE802600DA88CD /* MegaLotteryTests */,
 				5E1FBF531DCE802600DA88CD /* MegaLotteryUITests */,
 				5E1FBF2F1DCE802600DA88CD /* Products */,
+				F1B9A241154B5A6810629086 /* Pods */,
+				968085CA1E0C602E60B770C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +135,9 @@
 		5E1FBF301DCE802600DA88CD /* MegaLottery */ = {
 			isa = PBXGroup;
 			children = (
-				5E1FBF311DCE802600DA88CD /* AppDelegate.swift */,
-				5E1FBF331DCE802600DA88CD /* ViewController.swift */,
-				5E1FBF351DCE802600DA88CD /* Main.storyboard */,
-				5E1FBF3B1DCE802600DA88CD /* Assets.xcassets */,
-				5E1FBF3D1DCE802600DA88CD /* LaunchScreen.storyboard */,
-				5E1FBF401DCE802600DA88CD /* Info.plist */,
-				5E1FBF381DCE802600DA88CD /* MegaLottery.xcdatamodeld */,
+				5E1FBF6D1DCE958800DA88CD /* Resources */,
+				5E1FBF6C1DCE957C00DA88CD /* Controllers */,
+				5E1FBF621DCE88B500DA88CD /* Extensions */,
 			);
 			path = MegaLottery;
 			sourceTree = "<group>";
@@ -128,6 +160,66 @@
 			path = MegaLotteryUITests;
 			sourceTree = "<group>";
 		};
+		5E1FBF621DCE88B500DA88CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FBF631DCE88C300DA88CD /* Tints.swift */,
+				5E1FBF651DCE88F200DA88CD /* Avenir.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5E1FBF6C1DCE957C00DA88CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FBF311DCE802600DA88CD /* AppDelegate.swift */,
+				5E1FBF331DCE802600DA88CD /* ViewController.swift */,
+				5E1FBF6E1DCE95D900DA88CD /* MainTabBarViewController.swift */,
+				5E1FBF701DCE95F800DA88CD /* EventsViewController.swift */,
+				5E1FBF741DCE9AD700DA88CD /* EventDetailedViewController.swift */,
+				5E1FBF761DCE9B0100DA88CD /* ParticipateViewController.swift */,
+				5E1FBF721DCE960400DA88CD /* ProfileViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5E1FBF6D1DCE958800DA88CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FBF351DCE802600DA88CD /* Main.storyboard */,
+				5E1FBF3B1DCE802600DA88CD /* Assets.xcassets */,
+				5E1FBF3D1DCE802600DA88CD /* LaunchScreen.storyboard */,
+				5E1FBF401DCE802600DA88CD /* Info.plist */,
+				5E1FBF381DCE802600DA88CD /* MegaLottery.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		968085CA1E0C602E60B770C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FBF681DCE8C0100DA88CD /* AccountKit.framework */,
+				5E1FBF691DCE8C0100DA88CD /* AccountKitStrings.bundle */,
+				E97BC521AD8C9B18F5570112 /* Pods_MegaLottery.framework */,
+				A3CD680A5E3D216D34CE731A /* Pods_MegaLotteryTests.framework */,
+				E2E69C7F96D92B75661A2720 /* Pods_MegaLotteryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1B9A241154B5A6810629086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA88187EBA2DE3D448CA75B /* Pods-MegaLottery.debug.xcconfig */,
+				BB75362CD33E9444AD949293 /* Pods-MegaLottery.release.xcconfig */,
+				6E5DB1861BAF6F4047AE8E9F /* Pods-MegaLotteryTests.debug.xcconfig */,
+				5397CB8DD00D84F77E95533D /* Pods-MegaLotteryTests.release.xcconfig */,
+				7769F41456B338039B0DE909 /* Pods-MegaLotteryUITests.debug.xcconfig */,
+				C0C6CFAEDFC9F5B219DA6E5B /* Pods-MegaLotteryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1FBF591DCE802600DA88CD /* Build configuration list for PBXNativeTarget "MegaLottery" */;
 			buildPhases = (
+				107221477258AD765F43C6DB /* [CP] Check Pods Manifest.lock */,
 				5E1FBF2A1DCE802600DA88CD /* Sources */,
 				5E1FBF2B1DCE802600DA88CD /* Frameworks */,
 				5E1FBF2C1DCE802600DA88CD /* Resources */,
+				B80ADF3D8C040A48F08182EA /* [CP] Embed Pods Frameworks */,
+				C1EADAF22DF5DDBE55304766 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1FBF5C1DCE802600DA88CD /* Build configuration list for PBXNativeTarget "MegaLotteryTests" */;
 			buildPhases = (
+				E331C08D187E839908E5950C /* [CP] Check Pods Manifest.lock */,
 				5E1FBF411DCE802600DA88CD /* Sources */,
 				5E1FBF421DCE802600DA88CD /* Frameworks */,
 				5E1FBF431DCE802600DA88CD /* Resources */,
+				F81E264B2FBCDCACC6072619 /* [CP] Embed Pods Frameworks */,
+				623B5F811DF754FC3E6AE197 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1FBF5F1DCE802600DA88CD /* Build configuration list for PBXNativeTarget "MegaLotteryUITests" */;
 			buildPhases = (
+				7B92624B6BEA4B3E1152B8F7 /* [CP] Check Pods Manifest.lock */,
 				5E1FBF4C1DCE802600DA88CD /* Sources */,
 				5E1FBF4D1DCE802600DA88CD /* Frameworks */,
 				5E1FBF4E1DCE802600DA88CD /* Resources */,
+				5EB57144032784BE0DBD4293 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +341,7 @@
 				5E1FBF3F1DCE802600DA88CD /* LaunchScreen.storyboard in Resources */,
 				5E1FBF3C1DCE802600DA88CD /* Assets.xcassets in Resources */,
 				5E1FBF371DCE802600DA88CD /* Main.storyboard in Resources */,
+				5E1FBF6B1DCE8C0100DA88CD /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +361,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		107221477258AD765F43C6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB57144032784BE0DBD4293 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MegaLotteryUITests/Pods-MegaLotteryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623B5F811DF754FC3E6AE197 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MegaLotteryTests/Pods-MegaLotteryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B92624B6BEA4B3E1152B8F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B80ADF3D8C040A48F08182EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MegaLottery/Pods-MegaLottery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EADAF22DF5DDBE55304766 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MegaLottery/Pods-MegaLottery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E331C08D187E839908E5950C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F81E264B2FBCDCACC6072619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MegaLotteryTests/Pods-MegaLotteryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E1FBF2A1DCE802600DA88CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1FBF641DCE88C300DA88CD /* Tints.swift in Sources */,
 				5E1FBF341DCE802600DA88CD /* ViewController.swift in Sources */,
+				5E1FBF661DCE88F200DA88CD /* Avenir.swift in Sources */,
+				5E1FBF6F1DCE95D900DA88CD /* MainTabBarViewController.swift in Sources */,
+				5E1FBF711DCE95F800DA88CD /* EventsViewController.swift in Sources */,
 				5E1FBF3A1DCE802600DA88CD /* MegaLottery.xcdatamodeld in Sources */,
+				5E1FBF731DCE960400DA88CD /* ProfileViewController.swift in Sources */,
+				5E1FBF771DCE9B0100DA88CD /* ParticipateViewController.swift in Sources */,
+				5E1FBF751DCE9AD700DA88CD /* EventDetailedViewController.swift in Sources */,
 				5E1FBF321DCE802600DA88CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,9 +648,14 @@
 		};
 		5E1FBF5A1DCE802600DA88CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA88187EBA2DE3D448CA75B /* Pods-MegaLottery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P993BJWE94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MegaLottery",
+				);
 				INFOPLIST_FILE = MegaLottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kenes.MegaLottery;
@@ -430,9 +666,14 @@
 		};
 		5E1FBF5B1DCE802600DA88CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB75362CD33E9444AD949293 /* Pods-MegaLottery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P993BJWE94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MegaLottery",
+				);
 				INFOPLIST_FILE = MegaLottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kenes.MegaLottery;
@@ -443,6 +684,7 @@
 		};
 		5E1FBF5D1DCE802600DA88CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5DB1861BAF6F4047AE8E9F /* Pods-MegaLotteryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +700,7 @@
 		};
 		5E1FBF5E1DCE802600DA88CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5397CB8DD00D84F77E95533D /* Pods-MegaLotteryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +716,7 @@
 		};
 		5E1FBF601DCE802600DA88CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7769F41456B338039B0DE909 /* Pods-MegaLotteryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P993BJWE94;
@@ -487,6 +731,7 @@
 		};
 		5E1FBF611DCE802600DA88CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C6CFAEDFC9F5B219DA6E5B /* Pods-MegaLotteryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P993BJWE94;
@@ -518,6 +763,7 @@
 				5E1FBF5B1DCE802600DA88CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E1FBF5C1DCE802600DA88CD /* Build configuration list for PBXNativeTarget "MegaLotteryTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +772,7 @@
 				5E1FBF5E1DCE802600DA88CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E1FBF5F1DCE802600DA88CD /* Build configuration list for PBXNativeTarget "MegaLotteryUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +781,7 @@
 				5E1FBF611DCE802600DA88CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

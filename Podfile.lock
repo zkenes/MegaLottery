@@ -1,0 +1,41 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - EasyPeasy (1.4)
+  - FBSDKCoreKit (4.16.0):
+    - Bolts (~> 1.7)
+  - Typist (0.3.2)
+
+DEPENDENCIES:
+  - ChameleonFramework (from `https://github.com/ViccAlexander/Chameleon.git`, branch `swift3`)
+  - EasyPeasy
+  - FBSDKCoreKit
+  - Typist
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :branch: swift3
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: c400c32eead1c6e74008983c3e7c845ae069b41d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  EasyPeasy: c2e49ceb822edc0a5fffefd66240fff10129047d
+  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
+  Typist: fd67bd5fbe258a0007dfcf8477db24500c93985a
+
+PODFILE CHECKSUM: cbc2586356366458630ac3437d54065d2d0be213
+
+COCOAPODS: 1.0.1
