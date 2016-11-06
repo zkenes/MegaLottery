@@ -10,7 +10,7 @@ target 'MegaLottery' do
   pod 'EasyPeasy'
   pod 'ChameleonFramework', :git => 'https://github.com/ViccAlexander/Chameleon.git', :branch => 'swift3'
   pod 'Typist'
-
+  pod 'BTNavigationDropdownMenu', :git => 'https://github.com/PhamBaTho/BTNavigationDropdownMenu.git', :branch => 'swift-3.0'
   target 'MegaLotteryTests' do
     inherit! :search_paths
     # Pods for testing

@@ -24,6 +24,7 @@
 		5E1FBF731DCE960400DA88CD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF721DCE960400DA88CD /* ProfileViewController.swift */; };
 		5E1FBF751DCE9AD700DA88CD /* EventDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF741DCE9AD700DA88CD /* EventDetailedViewController.swift */; };
 		5E1FBF771DCE9B0100DA88CD /* ParticipateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF761DCE9B0100DA88CD /* ParticipateViewController.swift */; };
+		5E1FBF7A1DCED3AB00DA88CD /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FBF791DCED3AB00DA88CD /* SliderCollectionViewCell.swift */; };
 		6094201F7034AEE01573B336 /* Pods_MegaLotteryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E69C7F96D92B75661A2720 /* Pods_MegaLotteryUITests.framework */; };
 		7FD127F3451D1EF6B361E6E2 /* Pods_MegaLotteryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CD680A5E3D216D34CE731A /* Pods_MegaLotteryTests.framework */; };
 		B09CA1087D8AFA868B294AA3 /* Pods_MegaLottery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97BC521AD8C9B18F5570112 /* Pods_MegaLottery.framework */; };
@@ -71,6 +72,7 @@
 		5E1FBF721DCE960400DA88CD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5E1FBF741DCE9AD700DA88CD /* EventDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailedViewController.swift; sourceTree = "<group>"; };
 		5E1FBF761DCE9B0100DA88CD /* ParticipateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipateViewController.swift; sourceTree = "<group>"; };
+		5E1FBF791DCED3AB00DA88CD /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
 		6E5DB1861BAF6F4047AE8E9F /* Pods-MegaLotteryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLotteryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLotteryTests/Pods-MegaLotteryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7769F41456B338039B0DE909 /* Pods-MegaLotteryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLotteryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLotteryUITests/Pods-MegaLotteryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3CD680A5E3D216D34CE731A /* Pods_MegaLotteryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLotteryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 		5E1FBF301DCE802600DA88CD /* MegaLottery */ = {
 			isa = PBXGroup;
 			children = (
+				5E1FBF781DCED39400DA88CD /* Views */,
 				5E1FBF6D1DCE958800DA88CD /* Resources */,
 				5E1FBF6C1DCE957C00DA88CD /* Controllers */,
 				5E1FBF621DCE88B500DA88CD /* Extensions */,
@@ -193,6 +196,14 @@
 				5E1FBF381DCE802600DA88CD /* MegaLottery.xcdatamodeld */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E1FBF781DCED39400DA88CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FBF791DCED3AB00DA88CD /* SliderCollectionViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		968085CA1E0C602E60B770C4 /* Frameworks */ = {
@@ -490,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1FBF641DCE88C300DA88CD /* Tints.swift in Sources */,
+				5E1FBF7A1DCED3AB00DA88CD /* SliderCollectionViewCell.swift in Sources */,
 				5E1FBF341DCE802600DA88CD /* ViewController.swift in Sources */,
 				5E1FBF661DCE88F200DA88CD /* Avenir.swift in Sources */,
 				5E1FBF6F1DCE95D900DA88CD /* MainTabBarViewController.swift in Sources */,

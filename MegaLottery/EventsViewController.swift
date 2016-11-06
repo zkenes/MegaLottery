@@ -8,6 +8,7 @@
 
 import UIKit
 import EasyPeasy
+import BTNavigationDropdownMenu
 
 class EventsViewController: UIViewController {
     
@@ -29,11 +30,20 @@ class EventsViewController: UIViewController {
             Left(0),
             Bottom(0)
         ]
+        
+        let items = ["Events", "Past"]
+        let menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: "Dropdown Menu", items: items as [AnyObject])
+        self.navigationItem.titleView = menuView
+        menuView.didSelectItemAtIndexHandler = {[weak self] (indexPath: Int) -> () in
+            print("Did select item at index: \(indexPath)")
+         
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupView()
+        setupConstraints()
     }
 }
 
@@ -48,6 +58,15 @@ extension EventsViewController: UITableViewDelegate, UITableViewDataSource {
             cell = UITableViewCell(style: .subtitle, reuseIdentifier: identifier)
         }
         cell?.textLabel?.text = "Mexx"
+        cell?.detailTextLabel?.text  = "Розыгрыш путевки на двоих на Олимпийские Игры в Рио 2016."
+        cell?.detailTextLabel?.numberOfLines = 0
+        cell?.imageView?.image = UIImage(named: "mexx")
         return cell!
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 75
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.navigationController?.pushViewController(EventDetailedViewController(), animated: true)
     }
 }

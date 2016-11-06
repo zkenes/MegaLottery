@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BTNavigationDropdownMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,6 +57,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>21F7E6C8AF4E0156C0DC16E9C1B43562</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>223C952D3CD291DE22488C1F159F503B</key>
 		<dict>
 			<key>primary</key>
@@ -67,11 +77,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E3E2BABC4F244AC3D340B29EDE1DFE1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>9B57F4EE4746045CEAE2D933A3C8EC9E</key>
 		<dict>
 			<key>primary</key>
@@ -82,7 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D22C7AC2D2C845F64C73A26B545F806C</key>
+		<key>F6F0BE47F32653D0854F1E52D3C47FEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD23F1DA220A44C7E84F356B64871271</key>
 		<dict>
 			<key>primary</key>
 			<true/>
